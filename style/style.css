@@ -113,6 +113,16 @@ div.img img{
     border-radius: 10px;
 }
 
+aside.int img{
+    max-width: 350px;
+    
+}
+
+aside.int div.img{
+    display: flex;
+    justify-content: right;
+}
+
 aside {
     display: flex;
     flex-flow: row nowrap;
@@ -178,4 +188,8 @@ aside.impactos-causados img{
         max-width: 60%; /* Opcional: define um limite máximo */
         margin: 20px 0; /* Espaçamento vertical */
     }
+}
+
+aside.conclusao{
+    text-align: center;
 }
